@@ -7,3 +7,8 @@ Content-Type: application/json
     "price": 1500,
     "image": "https://media.istockphoto.com/id/1077832058/pt/foto/colorful-balloons-floating-in-the-sky-at-sunset.jpg?s=1024x1024&w=is&k=20&c=ut-kmQcWjSdkyEWcMMG10vOIETQ15AGTtY8bZc41iFM="
 }
+
+
+###
+
+GET http://localhost:3000/api/services
