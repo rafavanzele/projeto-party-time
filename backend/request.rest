@@ -16,3 +16,19 @@ GET http://localhost:3000/api/services
 
 ###
 GET http://localhost:3000/api/services/66b3ce40e303861de2ad5c73
+
+
+###
+DELETE http://localhost:3000/api/services/66b3ce40e303861de2ad5c73
+
+
+###
+PUT http://localhost:3000/api/services/66b3ce40e303861de2ad5c77
+Content-Type: application/json
+
+{
+    "name": "TESTE ATUALIZAÇÃO",
+    "description": "Alguma descrição",
+    "price": 2500,
+    "image": "https://media.istockphoto.com/id/1077832058/pt/foto/colorful-balloons-floating-in-the-sky-at-sunset.jpg?s=1024x1024&w=is&k=20&c=ut-kmQcWjSdkyEWcMMG10vOIETQ15AGTtY8bZc41iFM="
+}

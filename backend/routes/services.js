@@ -11,6 +11,8 @@ router.route('/services/:id').get((req, res) => serviceController.get(req, res))
 
 router.route('/services/:id').delete((req, res) => serviceController.delete(req, res))
 
+router.route('/services/:id').put((req, res) => serviceController.update(req, res))
+
 
 
 
