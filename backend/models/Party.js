@@ -15,7 +15,7 @@ const partySchema = new Schema({
         required: true,
     },
 
-    desciption: {
+    description: {
         type: String,
         required: true,
     },
