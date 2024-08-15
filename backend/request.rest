@@ -89,14 +89,14 @@ Content-Type: application/json
           "name": "Algum serviço 1",
           "description": "Alguma descrição",
           "price": 6500,
-          "image": "https://media.istockphoto.com/id/1077832058/pt/foto/colorful-balloons-floating-in-the-sky-at-sunset.jpg?s=1024x1024&w=is&k=20&c=ut-kmQcWjSdkyEWcMMG10vOIETQ15AGTtY8bZc41iFM="  
+          "image": "https://media.istockphoto.com/id/1077832058/pt/foto/colorful-balloons-floating-in-the-sky-at-sunset.jpg?s=1024x1024&w=is&k=20&c=ut-kmQcWjSdkyEWcMMG10vOIETQ15AGTtY8bZc41iFM=",  
         },
 
         {
           "name": "Algum serviço",
           "description": "Alguma descrição",
           "price": 2500,
-          "image": "https://media.istockphoto.com/id/1077832058/pt/foto/colorful-balloons-floating-in-the-sky-at-sunset.jpg?s=1024x1024&w=is&k=20&c=ut-kmQcWjSdkyEWcMMG10vOIETQ15AGTtY8bZc41iFM="  
+          "image": "https://media.istockphoto.com/id/1077832058/pt/foto/colorful-balloons-floating-in-the-sky-at-sunset.jpg?s=1024x1024&w=is&k=20&c=ut-kmQcWjSdkyEWcMMG10vOIETQ15AGTtY8bZc41iFM=",  
         }
     ] 
 }
