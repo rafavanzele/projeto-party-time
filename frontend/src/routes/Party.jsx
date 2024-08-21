@@ -4,11 +4,17 @@ import { useState, useEffect } from "react"
 
 import { useParams, Link, useNavigate } from "react-router-dom"
 
+import useToast from '../hooks/useToast'
+
+import './Party.css'
+
 const Party = () => {
 
     const {id} = useParams()
 
     const [party, setParty] = useState(null)
+
+    const navigate = useNavigate()
 
     // LOAD PARTY
     useEffect(() => {
@@ -22,6 +28,19 @@ const Party = () => {
         loadParty()
     }, [])
 
+
+    // DELETE THIS PARTY
+    const handleDelete = async() => {
+        const res = await partyFecth.delete(`/parties/${id}`)
+
+        if(res.status === 200) {
+            navigate('/')
+
+            useToast(res.data.msg)
+        }
+    }
+
+
     if(!party) return <p>Carregando...</p>
 
   
@@ -32,7 +51,7 @@ const Party = () => {
         <div className="action-container">
             <Link className="btn">Editar</Link>
 
-            <button className="btn-secondary">Excluir</button>
+            <button onClick={handleDelete} className="btn-secondary">Excluir</button>
         </div>
 
         <p>Orçamento: R${party.budget}</p>
