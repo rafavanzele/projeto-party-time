@@ -49,7 +49,7 @@ const Party = () => {
         <h1>{party.title}</h1>
 
         <div className="action-container">
-            <Link className="btn">Editar</Link>
+            <Link to={`/party/edit/${party._id}`} className="btn">Editar</Link>
 
             <button onClick={handleDelete} className="btn-secondary">Excluir</button>
         </div>
